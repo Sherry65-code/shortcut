@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'rubik';
+    src: url('./fonts/Rubik-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: 'google';
+    src: url('./fonts/DMSans-Regular.ttf');
+}
+body{
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+*{
+    font-family: google;
+}
+#header{
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 8vh;
+    font-size: large;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    padding-inline-start: 5vh;
+    color: rgb(48, 48, 48);
+    padding-inline-start: 60px;
+    background-image: url('./images/photos.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 5px;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    z-index: 100;
+}
+
+::-webkit-scrollbar{
+    background-color: rgb(255, 255, 255);
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(216, 216, 216);
+    border-radius: 18px;
+    border: 2px white solid;
+}
+#body{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    text-align: center;
+}
+#a{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#b{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#swipe{
+    font-weight: 600;
+    width: 100%;
+    font-size: 50px;
+    color: rgb(0, 83, 38);
+}
+.large{
+    font-size: 24px;
+    padding-right: 5px;
+}

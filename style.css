@@ -96,3 +96,15 @@ body{
     height: 85%;
     aspect-ratio: 1/1;
 }
+.collage{
+    position: absolute;
+
+}
+#c1{
+    top: 10%;
+    left: 0;
+}
+#c2{
+    bottom: 10%;
+    right: 0;
+}

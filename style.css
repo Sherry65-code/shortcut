@@ -9,6 +9,8 @@
 body{
     overflow-y: auto;
     overflow-x: hidden;
+    background: radial-gradient(rgb(179, 255, 179), white);
+    background-attachment: fixed;
 }
 *{
     font-family: google;
@@ -30,8 +32,8 @@ body{
     background-repeat: no-repeat;
     background-position: 5px;
     position: fixed;
-    background-color: rgb(255, 255, 255);
     z-index: 100;
+    transition: background ease-in-out 0.4s;
 }
 
 ::-webkit-scrollbar{
